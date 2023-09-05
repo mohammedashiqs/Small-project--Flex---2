@@ -1,0 +1,28 @@
+/* MOBILE */
+@media(max-width: 768px){
+    .banner{
+        background: linear-gradient(rgba(55, 57, 69, 0.8), rgba(55, 57, 69, 0.8)), url(../images/mobile.jpg) no-repeat center;
+    }
+
+.banner>header>nav>ul>li{display: block;}
+.banner>header>nav>ul{float: none;}
+.banner>header>nav{text-align: center};
+.banner>section{width: 100%}
+.container{flex-flow: column}
+}
+
+/* TAB */
+
+@media(min-width:769px) and (max-width:1200px){
+    .banner{
+        background: linear-gradient(rgba(55, 57, 69, 0.8), rgba(55, 57, 69, 8.0), url(../images/mobile.jpg) no-repeat center)
+    }
+
+ 
+.banner>header>nav>ul{float: none;}
+.banner>header>nav{text-align: center};
+.banner>section{width: 70%};
+.container{flex-flow: column;}
+}
+
+
